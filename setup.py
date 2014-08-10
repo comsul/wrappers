@@ -35,7 +35,7 @@ log.debug("project name = %s" %(name))
 # Run in the same directory as the setup.py script
 with dirstack(dirname(os.path.abspath(sys.argv[0]))):
 	setup(name=name,
-	      version='0.1.7',
+	      version='0.1.10',
 			author='comsul',
 			author_email='chnrxn+pypi@gmail.com',
 			description="convenient wrappers around existing modules", 
